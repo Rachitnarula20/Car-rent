@@ -4,7 +4,7 @@ import { GiSteeringWheel } from 'react-icons/gi';
 import { FaUsers } from 'react-icons/fa';
 import { BsSpeedometer2 } from 'react-icons/bs';
 import carData from '../CarData/carData';
-import Pagination from '../Footer/pagination'; // Import the Pagination component
+import Pagination from '../Footer/Pagination'; // Import the Pagination component
 
 const ItemsPerPage = 6;
 
