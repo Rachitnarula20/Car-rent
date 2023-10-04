@@ -4,7 +4,7 @@ import { GiSteeringWheel } from 'react-icons/gi';
 import { FaUsers } from 'react-icons/fa';
 import { BsSpeedometer2 } from 'react-icons/bs';
 import carData from '../CarData/carData';
-import Pagination from '../Footer/Pagination'; // Import the Pagination component
+import Pagination from '../Footer/pagination'; // Import the Pagination component
 
 const ItemsPerPage = 6;
 
@@ -52,9 +52,7 @@ const hello = () => {
               <div className="flex flex-wrap -mx-4">
                 {currentItems}
                 <Pagination pageCount={pageCount} handlePageClick={handlePageClick} currentPage={currentPage} />
-                {/* <div className="pagination-info">
-                  {currentPage + 1} of {pageCount}
-                </div> */}
+
               </div>
             </div>
           </div>

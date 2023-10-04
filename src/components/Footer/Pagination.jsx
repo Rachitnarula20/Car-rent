@@ -4,7 +4,7 @@ import './paginate.css';
 
 const Pagination = ({ pageCount, handlePageClick, currentPage }) => {
   return (
-    <div>
+    <div className='bg-cyan-100 rounded-xl flex p-2 ml-17 mr-7'>
       <div className="pagination-container">
         <ReactPaginate
           previousLabel={'<'}
