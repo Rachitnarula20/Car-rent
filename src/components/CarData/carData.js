@@ -69,6 +69,17 @@ const carData = [
         price:'Rs.16000'
     },
     {
+        id : 12,
+        image: Car12,
+        name: 'Buggati',
+        fuel: 'Petrol',
+        seats: 2,
+        mileage: 21,
+        year: 2022,
+        transmission:'Manual',
+        price:'Rs.15000'
+    },
+    {
         id : 8,
         image: Car8,
         name: 'Grand i10',
@@ -90,6 +101,18 @@ const carData = [
         transmission:'Automatic',
         price:'Rs.20000'
     },
+    {
+        id : 10,
+        image: Car10,
+        name: 'Rolls Royce',
+        fuel: 'Petrol',
+        seats: 6,
+        mileage: 11,
+        year: 2020,
+        transmission:'Automatic',
+        price:'Rs.20000'
+    },
+    
     {
       id : 11,
       image: Car11,
@@ -146,6 +169,17 @@ const carData = [
         price:'Rs.16000'
     },
     {
+        id : 10,
+        image: Car10,
+        name: 'Rolls Royce',
+        fuel: 'Petrol',
+        seats: 6,
+        mileage: 11,
+        year: 2020,
+        transmission:'Automatic',
+        price:'Rs.20000'
+    },
+    {
         id : 2,
         image: Car2,
         name: 'Tata Nexon',
@@ -190,6 +224,28 @@ const carData = [
         price:'Rs.14000'
     },
     {
+        id : 3,
+        image: Car3,
+        name: 'Innova ',
+        fuel: 'Petrol',
+        seats: 7,
+        mileage: 23,
+        year: 2020,
+        transmission:'Manual',
+        price:'Rs.1800'
+    },
+    {
+        id : 10,
+        image: Car10,
+        name: 'Rolls Royce',
+        fuel: 'Petrol',
+        seats: 6,
+        mileage: 11,
+        year: 2020,
+        transmission:'Automatic',
+        price:'Rs.20000'
+    },
+    {
         id : 11,
         image: Car11,
         name: 'Koenigsegg',
@@ -212,6 +268,17 @@ const carData = [
         price:'Rs.1300'
     },
     {
+        id : 2,
+        image: Car2,
+        name: 'Tata Nexon',
+        fuel: 'Petrol',
+        seats: 5,
+        mileage: 22,
+        year: 2020,
+        transmission:'Automatic',
+        price:'Rs.1300'
+    },
+    {
         id : 1,
         image: Car1,
         name: 'Mahindra Thar',
@@ -223,6 +290,17 @@ const carData = [
         price:'Rs.1500'
     },
     {
+        id : 3,
+        image: Car3,
+        name: 'Innova ',
+        fuel: 'Petrol',
+        seats: 7,
+        mileage: 23,
+        year: 2020,
+        transmission:'Manual',
+        price:'Rs.1800'
+    },
+    {
         id : 9,
         image: Car9,
         name: 'Lamborghini Urus',
@@ -232,6 +310,17 @@ const carData = [
         year: 2022,
         transmission:'Automatic',
         price:'Rs.16000'
+    },
+    {
+        id : 10,
+        image: Car10,
+        name: 'Rolls Royce',
+        fuel: 'Petrol',
+        seats: 6,
+        mileage: 11,
+        year: 2020,
+        transmission:'Automatic',
+        price:'Rs.20000'
     },
     {
       id : 2,
@@ -254,6 +343,17 @@ const carData = [
         year: 2023,
         transmission:'Manual',
         price:'Rs.1800'
+    },
+    {
+        id : 14,
+        image: Car14,
+        name: 'Bmw i8',
+        fuel: 'Petrol',
+        seats: 3,
+        mileage: 13,
+        year: 2018,
+        transmission:'Manual',
+        price:'Rs.14000'
     },
     {
         id : 11,
@@ -300,6 +400,17 @@ const carData = [
       price:'Rs.1800'
   },
   {
+    id : 2,
+    image: Car2,
+    name: 'Tata Nexon',
+    fuel: 'Petrol',
+    seats: 5,
+    mileage: 22,
+    year: 2020,
+    transmission:'Automatic',
+    price:'Rs.1300'
+},
+  {
     id : 9,
     image: Car9,
     name: 'Lamborghini Urus',
@@ -309,6 +420,17 @@ const carData = [
     year: 2022,
     transmission:'Automatic',
     price:'Rs.16000'
+},
+{
+    id : 14,
+    image: Car14,
+    name: 'Bmw i8',
+    fuel: 'Petrol',
+    seats: 3,
+    mileage: 13,
+    year: 2018,
+    transmission:'Manual',
+    price:'Rs.14000'
 },
     {
         id : 5,
@@ -333,6 +455,17 @@ const carData = [
         price:'Rs.13000'
     },
     {
+        id : 3,
+        image: Car3,
+        name: 'Innova ',
+        fuel: 'Petrol',
+        seats: 7,
+        mileage: 23,
+        year: 2020,
+        transmission:'Manual',
+        price:'Rs.1800'
+    },
+    {
         id : 1,
         image: Car1,
         name: 'Mahindra Thar',
@@ -355,6 +488,50 @@ const carData = [
         price:'Rs.15000'
     },
     {
+        id : 14,
+        image: Car14,
+        name: 'Bmw i8',
+        fuel: 'Petrol',
+        seats: 3,
+        mileage: 13,
+        year: 2018,
+        transmission:'Manual',
+        price:'Rs.14000'
+    },
+    {
+        id : 4,
+        image: Car4,
+        name: 'Maruti Swift ',
+        fuel: 'Petrol',
+        seats: 5,
+        mileage: 28,
+        year: 2023,
+        transmission:'Automatic',
+        price:'Rs.1100'
+    },
+    {
+        id : 2,
+        image: Car2,
+        name: 'Tata Nexon',
+        fuel: 'Petrol',
+        seats: 5,
+        mileage: 22,
+        year: 2020,
+        transmission:'Automatic',
+        price:'Rs.1300'
+    },
+    {
+        id : 3,
+        image: Car3,
+        name: 'Innova ',
+        fuel: 'Petrol',
+        seats: 7,
+        mileage: 23,
+        year: 2020,
+        transmission:'Manual',
+        price:'Rs.1800'
+    },
+    {
         id : 1,
         image: Car1,
         name: 'Mahindra Thar',
@@ -375,6 +552,39 @@ const carData = [
         year: 2023,
         transmission:'Manual',
         price:'Rs.1800'
+    },
+    {
+        id : 12,
+        image: Car12,
+        name: 'Buggati',
+        fuel: 'Petrol',
+        seats: 2,
+        mileage: 21,
+        year: 2022,
+        transmission:'Manual',
+        price:'Rs.15000'
+    },
+    {
+        id : 14,
+        image: Car14,
+        name: 'Bmw i8',
+        fuel: 'Petrol',
+        seats: 3,
+        mileage: 13,
+        year: 2018,
+        transmission:'Manual',
+        price:'Rs.14000'
+    },
+    {
+        id : 4,
+        image: Car4,
+        name: 'Maruti Swift ',
+        fuel: 'Petrol',
+        seats: 5,
+        mileage: 28,
+        year: 2023,
+        transmission:'Automatic',
+        price:'Rs.1100'
     },
     {
         id : 9,
@@ -410,6 +620,17 @@ const carData = [
         price:'Rs.1800'
     },
     {
+        id : 3,
+        image: Car3,
+        name: 'Innova ',
+        fuel: 'Petrol',
+        seats: 7,
+        mileage: 23,
+        year: 2020,
+        transmission:'Manual',
+        price:'Rs.1800'
+    },
+    {
         id : 11,
         image: Car11,
         name: 'Koenigsegg',
@@ -419,6 +640,28 @@ const carData = [
         year: 2021,
         transmission:'Manual',
         price:'Rs.13000'
+    },
+    {
+        id : 12,
+        image: Car12,
+        name: 'Buggati',
+        fuel: 'Petrol',
+        seats: 2,
+        mileage: 21,
+        year: 2022,
+        transmission:'Manual',
+        price:'Rs.15000'
+    },
+    {
+        id : 4,
+        image: Car4,
+        name: 'Maruti Swift ',
+        fuel: 'Petrol',
+        seats: 5,
+        mileage: 28,
+        year: 2023,
+        transmission:'Automatic',
+        price:'Rs.1100'
     },
     {
         id : 9,
