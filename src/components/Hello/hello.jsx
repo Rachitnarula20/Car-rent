@@ -254,8 +254,12 @@ const hello = () => {
                     </div>
                 </div>
                 <hr className="my-4" />
-                <p className="text-gray-600 text-lg font-semibold">{item.price}/day</p>  
+                <p className="text-gray-600 text-lg font-semibold">{item.price}/day</p> 
+                <button className="bg-cyan-500 text-white py-2 [padding-left:1.75rem] [padding-right:1.75rem] px-4 rounded-full text-s  hover:bg-cyan-700">
+          Rent
+        </button>
             </div>
+           
         </div>
         ))
         const pageCount = Math.ceil(carData.length / ItemsPerPage);
