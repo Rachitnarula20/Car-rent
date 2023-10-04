@@ -2,7 +2,8 @@ import React from 'react';
 import ReactPaginate from 'react-paginate';
 import './paginate.css';
 
-const Pagination = ({ pageCount, handlePageClick, currentPage }) => {
+const Pagination = ({ pageCount, handlePageClick, currentPage }) => {  
+
   return (
     <div className='bg-cyan-100 rounded-xl flex p-2 ml-17 mr-7'>
       <div className="pagination-container">
@@ -12,7 +13,7 @@ const Pagination = ({ pageCount, handlePageClick, currentPage }) => {
           breakLabel={'...'}
           pageCount={pageCount}
           marginPagesDisplayed={2}
-          pageRangeDisplayed={5}
+          pageRangeDisplayed={2}
           onPageChange={handlePageClick}
           containerClassName={'pagination'}
           activeClassName={'active'}
