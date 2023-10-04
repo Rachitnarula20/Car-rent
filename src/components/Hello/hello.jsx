@@ -239,7 +239,7 @@ const hello = () => {
         <div className="w-full md:w-1/2 lg:w-1/3 xl:w-1/3 px-4 mb-8">
          <div className="bg-white p-6 rounded-lg shadow-md flex flex-col justify-between w-[300px]">
                 <div>
-                    <img src={item.image} alt="Car Image" class="mb-4 w-full h-32 object-cover rounded-md" />
+                    <img src={item.image} alt="Car Image" className="mb-4 w-full h-32 object-cover rounded-md" />
                     <h2 className="text-xl font-semibold mb-2">{item.name}</h2>
                     <div className="flex flex-row mb-2">
                         <div className="mr-4">
@@ -273,8 +273,8 @@ const hello = () => {
         <div className="pagination-container">
 
         <ReactPaginate
-          previousLabel={'Previous'}
-          nextLabel={'Next'}
+          previousLabel={'<'}
+          nextLabel={'>'}
           breakLabel={'...'}
           pageCount={pageCount}
           marginPagesDisplayed={2}
@@ -284,7 +284,9 @@ const hello = () => {
           activeClassName={'active'}
         />
       </div>
-            
+      <div className="pagination-info">
+        {currentPage + 1} of {pageCount}
+      </div>
     </div>
  </div>
 </div>

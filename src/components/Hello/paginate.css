@@ -33,4 +33,16 @@
     background-color: #007bff;
     color: #fff;
   }
+  .pagination-info {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #26C6DA;
+    color: #E0F7FA;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  
   
