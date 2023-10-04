@@ -16,8 +16,8 @@ const hello = () => {
     setCurrentPage(selectedPage);
   };
   const offset = currentPage * ItemsPerPage;
-  const currentItems = carData.slice(offset, offset + ItemsPerPage).map((item) => (
-        <div className="w-full md:w-1/2 lg:w-1/3 xl:w-1/3 px-4 mb-8">
+  const currentItems = carData.slice(offset, offset + ItemsPerPage).map((item,index) => (
+        <div key={index} className="w-full md:w-1/2 lg:w-1/3 xl:w-1/3 px-4 mb-8">
          <div className="bg-white p-6 rounded-lg shadow-md flex flex-col justify-between w-[300px]">
                 <div>
                     <img src={item.image} alt="Car Image" className="mb-4 w-full h-32 object-cover rounded-md" />
